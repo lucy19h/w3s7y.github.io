@@ -5,17 +5,22 @@ date:   2017-05-31 08:33:01 +0100
 categories: blog
 ---
 It is the de-facto standard when learning a new language that the first program
-that you compile/build/run is the Hello World program.  As this site is built
+that you compile, build or run is the Hello World program.  As this site is built
 using a tool new to me [jekyll](https://jekyllrb.com) it seemed only fitting
 that my first post be called Hello World! too.  
 
 I hope that this blog is useful to you all, I will openly share my
-experiences, problems, solutions and war stories with all.  All I ask is for
-equal participation.  I used to draft on linked in but quickly realised that I
-wasn't interested in personal gains and more on fostering a community...
-that and I needed a personal website to vent on! Welcome to [w3s7y]({{site.baseurl}})
+experiences, problems, solutions and war stories with all.  
+I used to draft on [Linked.in](https://linked.in) but just felt instead that I
+wanted something a bit more personal and not associated with one particular business.
+So for that:
 
-I'd like to finish with a *Q&A*... well my questions, my answers...
+Welcome to [w3s7ys Blog!]({{site.baseurl}})
+
+Please feel free to checkout a little personal bio about me over on the [about]({{site.baseurl}}/about) page and erm well... Sit back and enjoy!
+
+I'd like to start this blog site with a *Q&A* of sorts,
+questions I have asked myself and  my answers...
 
 ### So what will you write about?
 Oh anything!  Technical news (and my opinion on it), updates on my side projects,
@@ -92,6 +97,4 @@ j45PqBFzTyYQCFrfQNb1Bi78j/QW1DDKT7CvUbbm8Irm7p8wdBjRvlQ92U728/jk
 {% endhighlight %}
 
 ### In conclusion
-Thank you for reading my first blog post!  I intend to keep my site entirely
-static and on public hosts.  Comments are welcome on twitter
-and via email if you need a private conversation.  
+Thanks for reading and please don't hesitate to hit me up via Twitter to discuss!

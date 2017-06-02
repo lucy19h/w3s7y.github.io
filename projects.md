@@ -5,7 +5,12 @@ permalink: /projects/
 ---
 # My projects
 I have a number of open-source and freely available projects I host on Github.
-Here is the main list:
+These are mostly small projects which I use to self learn programming languages
+(Python probably being the most prolific amongst the projects) so please do
+expect bad coding practices.  If you are of better skillset than I in any of the
+below projects, please get in touch and let me know how I can improve :)
+
+All that being said; here is the main list:
 
 | Project | Description |
 | ------- | ----------- |
