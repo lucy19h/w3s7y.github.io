@@ -10,7 +10,7 @@ use.
 * [Github](https://github.com) needs no introduction, simply my goto site for VCS.
 * [Mailinator](https://mailinator.com) public email.  Great for those sites you
 don't want to spam your inbox.
-* [ebuyer](https://ebuyer.com) Online shop for everything IT related, great customer service and prices.
+* [ebuyer](https://www.ebuyer.com) Online shop for everything IT related, great customer service and prices.
 
 ### People on [Twitter](https://twitter.com) I follow
 * [@ThePracticalDev](https://twitter.com/ThePracticalDev) do some really good stuff.

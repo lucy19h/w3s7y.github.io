@@ -15,7 +15,7 @@ after having it for two weeks I was finally requested to have a go at it.  Since
 laptop repair really isn't in my day job I thought hey why not and said id give
 it a go (not like I could have broken it further).
 
-A quick bit of shopping on the old [ebuyer](https://ebuyer.com) and I bought a cheap
+A quick bit of shopping on the old [ebuyer](https://www.ebuyer.com) and I bought a cheap
 1Tb Seagate spin disk to replace the old disk and while I waited for that to arrive
 set to writing a touch of my favorite configuration management tool, Ansible.
 
