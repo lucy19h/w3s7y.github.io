@@ -101,7 +101,7 @@ I used my standard 'ansible-base-framework' and added a small play for testing:
   hosts:
     - windoze
   vars:
-    ansible_user: Hannah
+    ansible_user: xxxxxx
     ansible_password: xxxxxx
     ansible_dir: 'C:\ansible'
 
