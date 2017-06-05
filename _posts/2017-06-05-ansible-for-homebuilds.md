@@ -186,3 +186,5 @@ Ansible not only in my day job, but also for making smaller personal builds easi
 I hope this is useful to anyone hoping to see a real world usage of Ansible albeit
 a very small example, or just what really happens behind the scenes when you send
 a laptop into the repair shop for a new hard drive.
+
+Thanks for reading!

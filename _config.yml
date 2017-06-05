@@ -24,7 +24,8 @@ url: "http://w3s7y.github.io" # the base hostname & protocol for your site, e.g.
 twitter_username: w3s7y
 github_username:  w3s7y
 
-# Used by YAML highlighing to ensure the variables are displayed properly
+# post variables, due to the jekyll templates using same syntax as Ansible variables
+# We need to define the Ansible variable as a jekyll one in order for it to display
 ansible_dir: '{{ansible_dir}}'
 
 # Build settings
