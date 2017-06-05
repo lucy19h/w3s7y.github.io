@@ -24,6 +24,9 @@ url: "http://w3s7y.github.io" # the base hostname & protocol for your site, e.g.
 twitter_username: w3s7y
 github_username:  w3s7y
 
+# Used by YAML highlighing to ensure the variables are displayed properly
+ansible_dir: '{{ansible_dir}}'
+
 # Build settings
 markdown: kramdown
 theme: minima

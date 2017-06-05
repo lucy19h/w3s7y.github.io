@@ -4,8 +4,8 @@ title:  "New Blog, New Project"
 date:   2017-06-02 15:34:01 +0100
 categories: blog
 ---
-#### Warning! wordy blog
 
+### Introduction
 So barely a few days pass since bringing this blog on the air and already a new
 and exciting opportunity has been presented to me.  A few weeks ago I was in
 conversation with one of the data scientists I work with, after a while we get
@@ -13,6 +13,7 @@ talking about this side project he has been thinking about working on in his spa
 time.  I have a lot of patience and respect for people that do this, it shows that
 they have a real passion for IT and are not just doing it for the paycheck!
 
+### The plan
 The primary deliverable for the project is a virtual machine which can be shipped
 around our company internally (or even potentially delivered to the cloud) and
 used by the data science community giving them an identical and common development
@@ -35,6 +36,7 @@ The intention is to give them the capabilities to let them use a familiar IDE to
 edit their code and run in an environment which can be easily customised for
 varying scenarios or machine learning problems.
 
+### The job
 Skip forward a few days and we get onto the topic of Ansible and he wondered if
 I could give him some basic framework code to get him off the ground.  Obviously
 I jumped at the chance to get someone else on the Ansible hype and help out a
@@ -51,12 +53,13 @@ that he would come back to me if he needed any more help.  That I thought would
 be the sum of my contribution to his great little side project.  Well I couldn't
 have been more wrong!
 
+### The take-off
 Fast forward to today and I learn that a senior (VP) of the company I work for
 has learned of this project and now wants to fund it and run it as a formal internal
-project.  We have been given an AWS root account to play around in and basically been
-told that yesterday is the delivery date!  There is certainly now a buzz around
-this project and I have been formally invited on to deliver the Ansible component
-of it... happy days!
+project.  We have been given an AWS account to play around in and basically been
+told that yesterday is the delivery date! (why does that seem so familiar...).  
+There is certainly now a buzz around this project and I have been formally invited
+on to deliver the Ansible component of it... happy days!
 
 This is all the information I have on the project right now however as the weeks
 progress I will certainly be keeping you all up to date with updates and maybe
