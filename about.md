@@ -22,6 +22,7 @@ tweet or if it's a code query, please raise an issue against the project on Gith
 
 * Automation using CM tools (Ansible being my favorite)
 * Docker and Docker orchestration
+* Arduino and embedded systems
 * A.I and machine learning
 * Cryptography and computer security
 * Continuous integration and delivery
