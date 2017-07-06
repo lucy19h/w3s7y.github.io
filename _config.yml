@@ -33,6 +33,7 @@ defaults:
 # post variables, due to the jekyll templates using same syntax as Ansible variables
 # We need to define the Ansible variable as a jekyll one in order for it to display
 ansible_dir: '{{ansible_dir}}'
+ldap_hostname: '{{ldap_hostname}}'
 
 # Build settings
 markdown: kramdown
