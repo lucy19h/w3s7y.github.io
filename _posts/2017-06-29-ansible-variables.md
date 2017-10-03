@@ -207,8 +207,8 @@ I think this has turned out quite well, we now have a clear set of group_vars
 which we can easily add site-wide, environment-specific and all the way down to
 individual groups of hosts.  We can also specify individual host variables (if
 needed) using the standard host_vars folder (not described here as its standard)
-Ansible fanfare.  I know an entire blog on the management of variables id probably
+Ansible fanfare.  I know an entire blog on the management of variables is probably
 overkill and if anyone is left reading this, I commend you!  But this is more for
 my own records as I will doubtless be repeating this pattern in my own Ansible
 repositories and projects.  As always any errors I have made or comments just
-come find me on twitter. 
+come find me on twitter.

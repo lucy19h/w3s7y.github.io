@@ -132,6 +132,7 @@ I won't bloat this blog entry with all that "What am I doing now" stuff as that
 is the content of other posts.
 
 ### Conclusion
+
 I will always be thankful to my mum for giving that first taste of programming
 and to the nameless guy in this article for handing my CV to Capgemini for
 consideration.  I hope this sheds some light or proves to some people that

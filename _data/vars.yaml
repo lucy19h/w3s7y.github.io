@@ -1,0 +1,3 @@
+---
+
+ansible_dir: '{{ansible_dir}}'
