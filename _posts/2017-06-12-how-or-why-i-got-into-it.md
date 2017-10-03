@@ -4,7 +4,8 @@ title:  "How (or why) I got into IT"
 date:   2017-06-12 07:58:00 +0100
 categories: blog
 ---
-### Introduction
+Introduction
+---
 A lot of people have asked me, "How did you get into IT?" and for the most part
 I simply answer "I sort of fell into it" which is usually met with confused looks
 as if they expected me to say "Well first I got a degree in Computer Science then
@@ -14,7 +15,8 @@ legitimate career path, it's not the one I took.  I'm here this morning just to
 give some personal insight into how and why I got into IT in general and why I think
 it's the career for me!
 
-### Starting them young
+Starting them young
+---
 I must not have even been 5 when my mum first got her hands on a "computer".  It was
 the early nineties, Bosnia was on the news and Michael Jackson was still in the charts.
 I lived at that time in a council house in Wrexham with my mum who was a single parent.
@@ -26,7 +28,8 @@ could type letters into the keyboard and get an output.  "Big deal" I thought to
 myself, typewriters do the same and make a better noise when the buttons are pushed.
 I went outside to play.
 
-### Developing an interest
+Developing an interest
+---
 Not long after the appearance of the ZX in our house, it was joined by what would
 become the biggest drain of time in my early life... An Amiga Commodore 64.
 This was a loaner, my mums boyfriends but it was still a hell of a lot of fun to
@@ -42,7 +45,8 @@ noises into something that has graphics, sound and input?  When I click "Save" a
 then quickly bang an empty tape into the deck and hit "Record" what is it doing?
 Quickly my mind had began to turn to wondering how these boxes we plugged into the TV actually _worked_.  
 
-### All aboard me hearties
+All aboard me hearties
+---
 Moving on to when I was about 6, I was getting ready to go to school one day and
 when I came down the stairs I was greeted by my mum in the living room bent over
 the ZX spectrum on the floor with a large manual laid out on the floor and a pad
@@ -71,7 +75,8 @@ of communication anymore, it was this day my views of computers and what you cou
 do with them changed.  Once the demonstration was complete, she unplugged the power
 and with that, 6 hours of intensive, errorless input was forgotten (but not by me).
 
-### Growing up
+Growing up
+---
 After that display in the art of possible, it was a long time before I touched
 anything else resembling a computer as I spent the next 8 years playing
 console games and when I wasn't playing on consoles, playing outside.  I was a very
@@ -86,7 +91,8 @@ cemented my belief that computers were really quite simple devices once you knew
 a bit about them and that with a small amount of physical material, you can really
 do amazing things!
 
-### How I got into IT
+How I got into IT
+---
 So as you can see, my early life was peppered with moments that left me with a
 "Thats so cool" feeling whenever I was using computers. However this is not what
 I went and did, I left school with "okay" GCSEs.  One 'A' in I.C.T class and the
@@ -120,7 +126,8 @@ I was offered full time employment as a "Deployment engineer".  Taking software
 developed by someone and "deploying" (i.e. making it run) on a server for clients
 to use.  
 
-### Gaining experience
+Gaining experience
+---
 In the following 8 years I learnt many new and exciting things, non-MS operating
 systems, networking, Java... The list grew and grew and I found myself getting
 more and more interested.  If there is one thing in this world I love, it's the
@@ -131,8 +138,8 @@ systems using technology brand new and largely untested at enterprise scale.  Ho
 I won't bloat this blog entry with all that "What am I doing now" stuff as that
 is the content of other posts.
 
-### Conclusion
-
+Conclusion
+---
 I will always be thankful to my mum for giving that first taste of programming
 and to the nameless guy in this article for handing my CV to Capgemini for
 consideration.  I hope this sheds some light or proves to some people that

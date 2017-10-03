@@ -4,23 +4,29 @@ title:  "Driving a Universal Motor with a triac and an Arduino"
 date:   2017-09-27 19:46:00 +0100
 categories: blog
 ---
-### Disclaimer
-**THIS PROJECT USES 240 Volts AC (MAINS POWER) WHICH CAN KILL YOU.
-DO NOT DO THIS UNLESS YOU KNOW WHAT YOU ARE DOING**
+Disclaimer
+---
+**THIS PROJECT USES 240 VOLTS AC (MAINS POWER) WHICH CAN (AND PROBABLY WILL)
+KILL YOU.**  
+
+**DO NOT DO THIS UNLESS YOU KNOW WHAT YOU ARE DOING**
+
 _Worth noting, I don't know what I am doing.  But don't say I didn't
 warn you if you end up letting the smoke out of yourself_
 
-### Introduction
-In this blog I'm exploring more traditional electronics projects and discrete
-components.  Namely using a triac to switch mains power and drive a high power
-washing machine motor recovered from my old clapped out Bosch.  The ultimate aim
-will be to attach this to an apple scratter which simply takes whole apples and
-mulches then into smaller pieces ready for pressing.  Currently our scratter
-is hand cranked and takes an amazing amount of time to get everything scratted
-and ready to press.  My 9 to 5 is generally automating software processes.  Time
-to apply what I know to manufacturing processes!
+Introduction
+---
+In this blog I'm exploring more traditional electronics including discrete
+components and semiconductors.  Namely using a triac to switch mains power and
+drive a high power washing machine motor recovered from my old clapped out Bosch.  
+The ultimate aim will be to attach this to an apple scratter which simply takes
+whole apples and mulches then into smaller pieces ready for pressing.  
+Currently our scratter is hand cranked and takes an amazing amount of time to
+get everything scratted and ready to press.  My 9 to 5 is generally automating
+software processes.  Time to apply what I know to manufacturing processes!
 
-### Ripping apart an old washing machine
+Ripping apart an old washing machine
+---
 So when my old washing machine packed up most people would have simply resigned
 it to their local recycling facility however I wanted to use the electrical
 components of it to give our scratter mach 2 capabilities.  So I took a Torx 20
@@ -40,7 +46,8 @@ Not a bad haul... Certainly all the components I _think_ I need.
 After doing a lot of research into the components and pulling the various data
 sheets (see appendix) I started to work on a circuit.
 
-### Prototyping a board
+Prototyping a board
+---
 After pinched fingers and bared knuckles pulling the washing machine apart
 it was time to break out the breadboard, jumpers and DC bench power supply
 (made out of an old salvaged ATX power supply, more of that in another blog) and
@@ -55,13 +62,15 @@ even when the gate has been disconnected. AC behaves diffrently to this as when
 the supply voltage crosses the "zero point" it has the effect of very briefly
 also reducing the current to zero as well due to Ohms law.  This is however
 desirable in our case as we will be supplying 250V AC to the triac and a small 5V
-DC supply from my Arduino to hit the gate with. 
+DC supply from my Arduino to hit the gate with.
 
-### Making the board
+Making the board
+---
+
+Testing the board
+---
 
 
-### Testing the board
-
-
-### Appendix
+Appendix
+---
 [BTB16-600CW Triac datasheet](http://docs-europe.electrocomponents.com/webdocs/12d5/0900766b812d50e6.pdf)
