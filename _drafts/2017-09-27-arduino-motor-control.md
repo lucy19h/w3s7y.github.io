@@ -11,13 +11,14 @@ KILL YOU.**
 
 **DO NOT DO THIS UNLESS YOU KNOW WHAT YOU ARE DOING**
 
-_Worth noting, I don't know what I am doing.  But don't say I didn't
-warn you if you end up letting the smoke out of yourself_
+_Worth noting, I don't know what I am doing.  But hey, if it isn't slightly dangerous
+it isn't fun right!  Just don't say I didn't warn you if you end up letting the
+magic smoke out of yourself!_
 
 Introduction
 ---
 In this blog I'm exploring more traditional electronics including discrete
-components and semiconductors.  Namely using a triac to switch mains power and
+components, semiconductors and big bad AC motors.  Namely using a triac to switch mains power and
 drive a high power washing machine motor recovered from my old clapped out Bosch.  
 The ultimate aim will be to attach this to an apple scratter which simply takes
 whole apples and mulches then into smaller pieces ready for pressing.  
@@ -53,23 +54,57 @@ it was time to break out the breadboard, jumpers and DC bench power supply
 (made out of an old salvaged ATX power supply, more of that in another blog) and
 start prototyping.  First of all I checked all the parts and went online to obtain
 the data sheets for all of the parts that I had collected from the main board inside
-the machine.  After this I plugged the Triac into the breadboard and started to
+the machine.  After this I plugged the triac into the breadboard and started to
 have a investigate on it with 5V DC.  Unfortunately they do not behave the same
 way with AC as they do DC.  However, this was useful to see the latching and
 holding currents in action.  Keeping the triac closed (conductive) when the gate
-is energised and their is a load exceeding 60mA (as per the datasheet) attached
-even when the gate has been disconnected. AC behaves diffrently to this as when
+is energised and their is a load exceeding 60mA (as per the data sheet) attached
+even when the gate has been disconnected. AC behaves differently to this as when
 the supply voltage crosses the "zero point" it has the effect of very briefly
 also reducing the current to zero as well due to Ohms law.  This is however
-desirable in our case as we will be supplying 250V AC to the triac and a small 5V
-DC supply from my Arduino to hit the gate with.
+desirable in our case as we will be supplying 250VAC to the triac and an optocoupler
+will be used to electronically isolate the high power 250VAC circuitry and the low
+power 5VDC arduino side of things.
 
-Making the board
+Let's have a quick look at the real basic diagram:
+
+![Circuit Diagram](/assets/img/triac1/circuit-diag.jpg)
+
+Arduino Code
+---
+As you can see in the diagram, the arduino involvement is pretty simple.  I'm just
+using a 10K potentiometer on an analog input 0 in order to change the duty cycle of
+the PWM output on pin 3.  This will then be fed directly onto the optocoupler which
+will then power the triacs gate by connecting it to the MT2 on the triac.  
+
+
+Giving the Arduino code a test
+---
+
+
+
+Making the board - 250VAC side
+---
+The board was made up on a piece of prototyping board, after soldering in the 250VAC
+input wires and securing them down with a cable tie so they don't go anywhere and
+attaching the triac with it's beefy heatsink close to the input and the output board attachment to the motor.  This is pretty much the entire high
+voltage side of the circuit.
+
+
+Having a quick look at the finished board, note the line across the board which
+isolates 240VAC and the 5VDC circuits.
+
+![Finished Board](/assets/img/triac1/finished.jpg)
+
+Arduino Code
 ---
 
 Testing the board
 ---
-
+So here is where it gets dangerous.  I do not possess a variac (auto transformer)
+which could step down the 240VAC to something like 9-10VAC which would be much more
+handleable and won't kill you.  Therefore I have gone for the plug it in remotely
+and   
 
 Appendix
 ---
