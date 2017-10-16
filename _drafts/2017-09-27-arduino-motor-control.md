@@ -18,8 +18,21 @@ magic smoke out of yourself!_
 Introduction
 ---
 In this blog I'm exploring more traditional electronics including discrete
-components, semiconductors and big bad AC motors.  Namely using a triac to switch mains power and
-drive a high power washing machine motor recovered from my old clapped out Bosch.  
+components, semiconductors and big bad 240Volt AC (VAC) universal motors.
+This project has scared me a fair bit, and I have been planning for weeks on how
+best not to kill myself in this project.  However no (serious, life changing) pain...
+no gain!
+
+Requirements
+---
+Pretty damn simple.  I need a motor to spin with bags of torque and bags of speed.
+Okay, too simple. Let's break it down...
+* To drive an AC universal motor
+* Variable speed control
+* Physical and electrical isolation between me and the 240AC
+
+And the reason why I need this...
+To drive a washing machine motor recovered from my old clapped out Bosch.  
 The ultimate aim will be to attach this to an apple scratter which simply takes
 whole apples and mulches then into smaller pieces ready for pressing.  
 Currently our scratter is hand cranked and takes an amazing amount of time to
@@ -35,13 +48,13 @@ bit to it and a pair of pliers and did the old "see a screw, remove it" style
 teardown.  It wasn't long before I had the following components liberated from
 their steel prison:
 * 1 No. BTB16-600CW triac (the heart of the operation)
-* 2 No. 10A SPDT relay
-* 1 No. 10A SPST relay
-* 1 No. 1360W Universal Motor
+* 2 No. 240VAC 10A SPDT relay
+* 1 No. 240VAC 10A SPST relay
+* 1 No. 1360W Universal Motor (thats a **LOT** of power)
 * 1 No. drive belt & large reduction gear (off the back of the drum)
-* 1 No. UK 3 pin plug, fuse and cord
+* 1 No. UK 3 pin plug, 13A fuse and cord terminated in spade clips (thanks Bosch!?!)
 * 1 No. Potted EMI filter (mandatory to use when connecting inductive/noisy loads to the grid)
-* Various capacitors, diodes, etc. of different sizes and ratings
+* Various capacitors, diodes, inductors, etc. of different sizes and ratings (there were a lot, I won't bother listing all)
 
 Not a bad haul... Certainly all the components I _think_ I need.
 After doing a lot of research into the components and pulling the various data
@@ -96,15 +109,12 @@ isolates 240VAC and the 5VDC circuits.
 
 ![Finished Board](/assets/img/triac1/finished.jpg)
 
-Arduino Code
----
-
 Testing the board
 ---
 So here is where it gets dangerous.  I do not possess a variac (auto transformer)
 which could step down the 240VAC to something like 9-10VAC which would be much more
 handleable and won't kill you.  Therefore I have gone for the plug it in remotely
-and   
+and stand well back approach
 
 Appendix
 ---
